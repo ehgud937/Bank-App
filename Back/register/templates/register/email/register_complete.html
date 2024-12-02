@@ -1,0 +1,44 @@
+<!-- templates/register/email/register_complete.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container {
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            color: #2c3e50;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .content {
+            color: #34495e;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .footer {
+            margin-top: 30px;
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            금융상품 가입 신청 완료
+        </div>
+        <div class="content">
+            <p>안녕하세요.</p>
+            <p><strong>{{ product_name }}</strong> {{ register_type }} 상품 가입 신청이 완료되었습니다.</p>
+            <p>신청하신 내용은 검토 후 승인 여부를 다시 안내드리겠습니다.</p>
+            <p>감사합니다.</p>
+        </div>
+        <div class="footer">
+            <p>본 메일은 발신전용 메일입니다.</p>
+            <p>© 2024 Your Bank Name. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
