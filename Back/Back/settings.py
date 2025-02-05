@@ -24,7 +24,7 @@ KAKAO_REST_API_KEY = env('KAKAO_REST_API_KEY')
 OPENAI_API_KEY = env('OPENAI_API_KEY')
 RESEND_API_KEY = env('RESEND_API_KEY')
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-81bb!(^u$u(m@xuoalb@1a1z(pi^x0amb0t2))2@2l1$z)opu9'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
